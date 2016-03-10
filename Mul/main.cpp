@@ -4,9 +4,11 @@
 
 void main()
 {
-	printf("Input A:");
-	float a = getFloat();
-	printf("\t\tA=%f", a);
+	float a = 0, b = 0, c = 0;
+	
+	inputABC(&a, &b, &c);
+
+
 	getchar();
 }
 
